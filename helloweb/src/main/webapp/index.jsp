@@ -12,5 +12,6 @@
 <% for(int i=0; i<5; i++){ %>
 	<h1>Hello World~</h1>
 <%  }%>
+	<a href="/helloweb/hello?id=hello">인사</a>
 </body>
 </html>
