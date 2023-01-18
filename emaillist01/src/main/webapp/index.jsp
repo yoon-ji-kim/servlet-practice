@@ -37,7 +37,7 @@
 		}
 	%>
 	<p>
-		<a href="/emaillist01/form.jsp">새 메일 등록</a>
+		<a href="<%=request.getContextPath() %>/form.jsp">새 메일 등록</a>
 	</p>
 	<br>
 </body>
