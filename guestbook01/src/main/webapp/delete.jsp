@@ -9,5 +9,5 @@
 	if(password.equals(result)){
 		new GuestbookDao().deleteByNoAndPassword(no, password);
 	}
-		response.sendRedirect("/guestbook01");		
+		response.sendRedirect(request.getContextPath());		
 %>
